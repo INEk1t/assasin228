@@ -1,0 +1,231 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: 1px solid rgb(160, 232, 37);
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo>img {
+}
+
+.site-menu>li>a {
+    color: #d4d4d4;
+}
+
+.main-nav {
+    padding-top: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header {
+    background-color: #222;
+    padding-bottom: 179px;
+}
+
+ul {
+    list-style: none;
+}
+
+.site-menu {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 62px;
+}
+
+.site-menu > li {
+    margin-right: 30px;
+}
+
+.features {
+    background: #000;
+}
+
+.features-list {
+    display: flex;
+    color: #D4D4D4;
+    padding-top: 187px;
+    padding-bottom: 79px;
+}
+
+.contacts-menu {
+    display: flex;
+}
+
+.contacts-menu > li {
+    margin-left: 24px;
+}
+
+h1 {
+    margin-top: 113px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.about-us {
+    position: relative;
+    font-family: "Courier New";
+    color: #fff;
+    width: 244px;
+    margin-left: 120px; 
+}
+
+.left-column {
+    width: 424px;
+}
+
+.footer-columns-container>.left-column {
+    width: 162px;
+}
+
+.right-column {
+    width: 370px;
+    margin-bottom: 57px;
+}
+
+.btn {
+    color: #000;
+    background-color: #ffcb06;
+    border-radius: 25px;
+    font-family: 'Verdana';
+    display: flex;
+    margin-top: 75px;
+    padding: 17px 100px 16px 38px;
+}
+
+
+.btn {
+    position: relative;
+}
+.btn::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 19px;
+    height: 16px;
+    z-index: 10;
+    left: 200px;
+    background-image: url("../img/right-arrow-dark\ 1.png");
+}
+
+.columns-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lead {
+    margin-top: 85px;
+    margin-bottom: 44px;
+}
+
+.recommendations > h3 {
+    margin-bottom: 27px;
+}
+
+.recommendations-list>li {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.recommendations-list>li::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: relative;
+    left: -20px;
+    background-color: #ffcb06;
+}
+
+.about-us::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 438px;
+    height: 438px;
+    background-image: url("../img/moon-rocket\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -100px;
+    left: 398px;
+}
+
+/* .icon::after {
+    content: "";
+    display: inline-block;
+    
+} */
+
+.visually-hidden {
+    display: none;
+}
+
+.icon-mail::before {
+    content: "";
+    width: 17px;
+    height: 12px;
+    background-image: url("../img/mail-icon\ 1.png");
+    display: inline-block;
+}
+
+.icon-phone::before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    background-image: url("../img/phone-icon\ 1.png");
+    display: inline-block;
+}
+
+.footer-columns-container {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 88px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.site-footer {
+    background-color: #131313;
+}
+
+.company-title {
+    color: #d4d4d4;
+    margin-left: 16px;
+}
+
+.copyrights {
+    color: #555;
+    margin-top: 110px;
+}
+
+.footer-submenu-title {
+    font-family: 'Verdana';
+    color: #d4d4d4;
+}
+
+.footer-submenu>li>a {
+    color: #888;
+}
+
+.footer-menu>li>a {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-columns-container>.right-column {
+    flex-grow: 1;
+}
